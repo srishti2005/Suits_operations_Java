@@ -29,3 +29,6 @@ class Card{
 			System.out.println(card);
 		}
 	}
+	public void shuffleDeck(){
+		Collections.shuffle(deck);
+	}
